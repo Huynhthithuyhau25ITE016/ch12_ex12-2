@@ -1,4 +1,5 @@
 <?php
+
 $lifetime = 60 * 60 * 24 * 365;
 session_set_cookie_params($lifetime, '/');
 session_start();
